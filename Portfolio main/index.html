@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Supret RJ Kaur</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">Supret RJ Kaur ✦</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-text" aria-hidden="true">portfolio</div>
+    <span class="star-el" style="top:15%;left:8%">✦</span>
+    <span class="star-el" style="top:25%;right:10%">★</span>
+    <span class="star-el" style="top:60%;left:6%">✧</span>
+    <span class="star-el" style="bottom:20%;right:8%">✦</span>
+    <span class="star-el" style="top:45%;left:20%">✶</span>
+    <div class="hero-tag">Creative Portfolio ✨</div>
+    <div class="hero-name">Supret RJ Kaur</div>
+    <div class="hero-title">Software Developer · Web Developer · UI/UX Designer</div>
+   <div class="hero-socials">
+      <a href="https://www.linkedin.com/in/supret-rj-kaur-765658294/" target="_blank" class="hero-social-pill"><span class="icon">[in]</span> LinkedIn</a>
+      <a href="https://mail.google.com/mail/?view=cm&to=supretrjkaur@gmail.com" target="_blank" class="hero-social-pill"><span class="icon">📬</span> Email</a>
+      <a href="https://leetcode.com/u/Supret95/" target="_blank" class="hero-social-pill"><span class="icon">🚀</span> Leetcode</a>
+      <a href="https://github.com/SupretRJKaur" target="_blank" class="hero-social-pill"><span class="icon">🤖</span> Github</a>
+    </div>
+    <div class="scroll-hint">scroll</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label reveal">Hello there!</div>
+    <div class="section-title reveal reveal-delay-1">A little bit <em>about me.</em></div>
+    <div class="about-grid">
+      <div class="about-card reveal reveal-delay-1">
+        <p>Hi! I'm Supret RJ Kaur, an aspiring Software Development Engineer based in India. I'm passionate about building things for the web — from clean interfaces to thoughtful user experiences.</p>
+        <p>Currently focused on Web Development, UI/UX Design, and Graphic Design. Always learning, always building.</p>
+        <div class="skills-row">                                             
+          <span class="skill-chip">Software Engineering</span>
+          <span class="skill-chip">Web Development</span>
+          <span class="skill-chip">UI/UX Design</span>
+          <span class="skill-chip">HTML/CSS/JS</span>
+          <span class="skill-chip">Graphic Designing</span>
+          <span class="skill-chip">Figma</span>
+        </div>
+      </div>
+      <div class="about-photo-card reveal reveal-delay-2">
+        <div class="photo-placeholder"><img src="photo.jpg" alt="Supret RJ Kaur"></div>
+        <h3>Supret RJ Kaur</h3>
+        <p>Web Development · Software Engineering<br>UI/UX Design · Graphic Designing</p>
+        <div class="about-tags">
+          <span class="skill-chip">Based in India</span>
+          <span class="skill-chip">💼 Open to work</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL MEDIA -->
+  <section id="social" class="no-top-pad">
+    <div class="section-label reveal">Online presence</div>
+    <div class="section-title reveal reveal-delay-1">My <em>Social Media.</em></div>
+    <div class="social-full reveal reveal-delay-2">
+      <div>
+        <h3>Two thriving accounts! 🎉</h3>
+        <p>This is my two-account where I post constantly for the past 2 years. The traffic is steady for both accounts even with little followers. I post tips and behind-the-scene content for my graphic designs and it's doing well on TikTok.</p>
+        <div class="platform-pills">
+          <a href="https://instagram.com/qvrluvyt" target="_blank" class="platform-pill">📸 Instagram <strong>@qvrluvyt</strong></a>
+          <a href="https://in.pinterest.com/qvrluvtf/" target="_blank" class="platform-pill">📌 Pinterest <strong>@qvrluvtf</strong></a>
+        </div>
+      </div>
+      <div class="phone-mockup-wrap">
+        <div class="phone-mockup">
+          <div class="phone-screen">
+            <div class="phone-icon">✦</div>
+            <div>Your Feed</div>
+            <div class="phone-sub">Design tips & behind-the-scenes</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="no-top-pad">
+    <div class="section-label reveal">Work showcase</div>
+    <div class="section-title reveal reveal-delay-1">My <em>Projects.</em></div>
+    <div class="projects-masonry">
+      <a href="https://github.com/SupretRJKaur/IBM-SkillBuilds--BigCloud" target="_blank" rel="noopener" class="project-card reveal">
+        <div class="project-img-box tall"><img src="Sort-it.png" alt="SortIt project screenshot"></div>
+        <div class="project-inner">
+          <span class="project-tag">AI · Automation · n8n</span>
+          <h4>SortIt — AI Waste Segregation Kiosk</h4>
+          <p>IBM SkillsBuild internship project (Team BIGCLOUD). Uses Google Gemini 2.0 Flash Vision + n8n workflows to identify individual components of an object and route each to the correct disposal bin, deployed on Vercel.</p>
+        </div>
+      </a>
+      <a href="https://github.com/SupretRJKaur/Smart-File-Organizer" target="_blank" rel="noopener" class="project-card reveal reveal-delay-1">
+        <div class="project-img-box medium"><img src="Smart file organiser.png" alt="Smart File Organizer screenshot"></div>
+        <div class="project-inner">
+          <span class="project-tag">Python · Web App</span>
+          <h4>Smart File Organizer</h4>
+          <p>Sorts messy, badly-named files into clean subject-based folders automatically. Built as both a Python/Tkinter desktop app and a browser-only web app (JSZip + Web Crypto) with duplicate detection and undo.</p>
+        </div>
+      </a>
+      <a href="https://github.com/SupretRJKaur/RAG-Application-" target="_blank" rel="noopener" class="project-card reveal reveal-delay-2">
+        <div class="project-img-box tall"><img src="RAG-Application.png" alt="RAG Application screenshot"></div>
+        <div class="project-inner">
+          <span class="project-tag">RAG · LLM</span>
+          <h4>RAG Application</h4>
+          <p>Retrieval-augmented chat app that answers from a set of reference PDF files so it can surface specific questions, code snippets, and step-by-step explanations on demand.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA -->
+  <div class="cta-section" id="contact">
+    <h2>Let's <span>Connect!</span> ✦</h2>
+    <p>Have a project in mind? I'd love to bring it to life. Fill out the form below or drop me a message!</p>
+
+    <!-- CONTACT FORM -->
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Name" required>
+          <span class="form-error" id="nameError">Please enter your name.</span>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="name@email.com" required>
+          <span class="form-error" id="emailError">Please enter a valid email.</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Project collaboration, freelance inquiry..." required>
+        <span class="form-error" id="subjectError">Please enter a subject.</span>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, timeline, budget..." required></textarea>
+        <span class="form-error" id="messageError">Please write a message.</span>
+      </div>
+      <button type="submit" class="btn-submit" id="submitBtn">
+        <span class="btn-text">✉️ Send Message</span>
+        <span class="btn-loading" hidden>Sending…</span>
+      </button>
+      <div class="form-success" id="formSuccess" hidden>
+        ✦ Message sent! I'll get back to you soon 🌸
+      </div>
+      <div class="form-fail" id="formFail" hidden>
+        Something went wrong. Try emailing me directly at <a href="mailto:Supretrjkaur@email.com">supretrjkaur@email.com</a>
+      </div>
+    </form>
+
+    <div class="cta-info">
+      <div class="cta-info-pill">📧 supretrjkaur@gmail.com</div>
+      <div class="cta-info-pill">📱 +91 9811575952</div>
+      <div class="cta-info-pill">🌏 India/ Remote</div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Crafted with ✦ by Supret RJ Kaur · 2026 · All rights reserved</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
